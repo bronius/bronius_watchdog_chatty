@@ -1,0 +1,17 @@
+<?php
+
+/*
+ * @file
+ * Contains install and update functions for Bronius Watchdog Chatty.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function bronius_watchdog_chatty_install() {
+//  global $base_url;
+//  $link = \Drupal\Core\Link::fromTextAndUrl('Try it out now!', \Drupal\Core\Url::fromRoute('bronius_watchdog_chatty.content'));
+//  drupal_set_message($link);
+//  drupal_set_message("Try it now by visiting $base_url/test_chatty in your browser!");
+  drupal_set_message('Try it now by visiting <your site>/test_chatty in your browser!');
+}
