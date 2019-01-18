@@ -1,0 +1,5 @@
+name: Bronius Watchdog Chatty
+description: Displays Watchdog messages to user via Drupal Set Message
+package: Custom
+type: module
+core: 8.x

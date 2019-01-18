@@ -1,0 +1,7 @@
+bronius_watchdog_chatty.content:
+  path: '/test_chatty'
+  defaults:
+    _controller: '\Drupal\bronius_watchdog_chatty\Controller\WatchdogChattyController::content'
+    _title: 'Sample Watchdog Messages Raised'
+  requirements:
+    _permission: 'access content'

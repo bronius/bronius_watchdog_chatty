@@ -1,0 +1,6 @@
+services:
+
+  logger.watchdogchatty:
+    class: Drupal\bronius_watchdog_chatty\Logger\WatchdogChattyLogger
+    tags:
+      - { name: logger }
